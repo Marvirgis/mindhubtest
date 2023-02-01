@@ -1,0 +1,51 @@
+body{width: 1366px;
+    margin: 0px;
+}
+
+header{
+    color: azure;
+    height: 300px;
+    background-image: url("./design1_image1.jpg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+.encabezado{
+    height: 150px;;
+    display:block;
+    background-color: rgb(113, 234, 238, 0.877);
+    text-align: right;
+}
+h2{
+    width: 1366px
+    font-size: 35px;
+    text-align: center;    
+    text-shadow: 2px 2px white;
+}
+main{
+    width: 1366px;
+    display: inline-block;
+}
+nav{
+    display: inline-block;
+}
+nav a{
+    width: 150px;
+    display: block; 
+    border: outset;
+    border-color: lightblue;
+    background-color: rgb(146, 135, 247);
+    padding: 5px;
+    margin: 15px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.cuerpo{
+    width: 1000px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+}
