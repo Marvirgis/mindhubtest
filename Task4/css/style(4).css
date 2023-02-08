@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("/img/design1_image1.jpg");
+}
+
+header{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    background-image: url("/img/design1_image2.jpg");
+    height: 300px;
+    font-size: 50px;
+    font-style: oblique bold;
+    color: black;
+    text-shadow: 2px 2px 5px #FC0;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+nav a{
+    width: 75px;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius:5px ;
+    margin: 2px;
+    padding: 2px;
+}
+
+h2{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 35px;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:2px ;
+    text-align: center;
+}
+.calendario{
+    font-size: 25px;
+    text-align: center;
+    width: 600px;
+    height: 500px;
+    margin: 10px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    position: relative;
+    left: 400px;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px;
+}
+.reglas{
+    font-size: 25px;
+    text-align: left;
+    width: 1000px;
+    height:850px;
+    margin: 10px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    position: relative;
+    left: 250px;
+    bottom: 150px;
+}
+dt{
+    font-weight: bold;
+}
+li{
+    list-style-type: none;
+}
+.sobre{
+    font-size: 25px;
+    text-align: center;
+    width: 1000px;
+    height:400px;
+    margin: 10px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    position: relative;
+    left: 250px;
+    bottom: 150px;
+}
+
+/*Formato tabla*/
+
+table, th, td {
+    font-size: 25px;
+    position: relative;
+    bottom: 100px;
+    left:200px;
+}
+th{
+    background-color: aqua;
+}
+td{
+    background-color: blueviolet;
+}
+
+.mapas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+}
+iframe{
+    border: 2px solid black;
+}
+.mapas>iframe{
+    border: 2px solid black;
+}
+
+#contacto{
+    display: inline;
+    font-size: 30px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+}
+
+/*Formulario*/
+
+#formulario{
+    width: 1000px;
+    position: relative;
+    left: 250px;
+    bottom: 250px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+    
+
